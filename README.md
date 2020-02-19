@@ -1,29 +1,15 @@
-# ws-coding-henry-hsu
+For this project, I use VueJS as the front end framwork and jest for unit
+testing.
 
-## Project setup
-```
-npm install
-```
+1. To run the program, open console and go to the current folder and run the
+    command "npm run serve". Once that's done running you should see 2 URLs that
+    looks similar to this:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+      App running at:
+      - Local:   http://localhost:8082/
+      - Network: http://192.168.1.191:8082/
+    Run either of them on a browser and you should be able to see the page.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. To run the test type the command "npm run test:unit". It will go through
+    all the test cases that's stored under the "tests/unit" folder.
+    At the end, it will show how many test cases have passed and failed.

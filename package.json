@@ -5,13 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
+    "test:unit": "vue-cli-service test:unit --watch",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "jquery": "^3.4.1",
+    "owl.carousel": "^2.3.4",
+    "tiny-slider": "^2.9.2",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
+    "vuetify": "^2.2.11",
     "vuex": "^3.1.2"
   },
   "devDependencies": {
@@ -27,7 +31,9 @@
     "eslint-plugin-vue": "^6.1.2",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
   },
   "eslintConfig": {
     "root": true,
